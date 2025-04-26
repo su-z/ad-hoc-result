@@ -6,6 +6,8 @@ This is useful in scenarios where a computation may fail but can still recommend
 
 For example, this is needed when you can solve a linear system, but the accuracy is poor due to large condition numbers: you may want to return the computed solution as a recommendation, even though the operation is technically a failure.
 
+[https://crates.io/crates/ad-hoc-result](https://crates.io/crates/ad-hoc-result)
+
 ## Installation
 
 Add this to your `Cargo.toml`:
